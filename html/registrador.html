@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Estudiantes</title>
+</head>
+<body>
+    <h2>Sistema de Registro de Estudiantes</h2>
+
+    <h3>Agregar estudiante</h3>
+    <p>
+        Nombre: <input type="text" id="nombre"><br><br>
+        Edad: <input type="number" id="edad"><br><br>
+        Número de Identificación: <input type="number" id="identificacion"><br><br>
+        <button onclick="agregarEstudiante()">Agregar</button>
+    </p>
+
+    <h3>Buscar estudiante</h3>
+    <p>
+        Número de Identificación: <input type="number" id="buscarId">
+        <button onclick="buscarEstudiante()">Buscar</button>
+    </p>
+
+    <h3>Resultado</h3>
+    <p id="resultado"></p>
+
+    <script src="../js/registrador.js"></script>
+      <a href="../html/index.html">menu principal</a>
+</body>
+</html>
